@@ -109,7 +109,6 @@ body {
   font-weight: 500;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .logo_list {
   font-weight: 500;
@@ -117,7 +116,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .ref {
@@ -163,9 +161,6 @@ address {
   background: #2e2f42;
   padding: 188px 0;
   align-items: center;
-  /* padding-top: 188px;
-  padding-bottom: 188px;
-  padding-left: 472px; */
 }
 .main_page .container {
   display: flex;
@@ -197,7 +192,6 @@ address {
   border: none;
   border-radius: 4px;
   margin-top: 48px;
-  /* margin-left: 164px; */
 }
 .cta:hover {
   background-color: #404bbf;
@@ -226,7 +220,6 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
 .adv_text {
   font-weight: 400;
@@ -234,7 +227,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
 }
 .about {
   background: #f4f4fd;
@@ -250,7 +242,6 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  /* display: none; */
   margin-bottom: 72px;
 }
 .team_card_box {
@@ -267,10 +258,7 @@ address {
   height: 380px;
 }
 .about_li_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  text-align: center;
   gap: 8px;
   padding: 32px 0;
 }
@@ -293,7 +281,6 @@ address {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 footer {
