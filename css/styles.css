@@ -161,6 +161,9 @@ address {
   background: #2e2f42;
   padding: 188px 0;
   align-items: center;
+  background-image: url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main_page .container {
   display: flex;
