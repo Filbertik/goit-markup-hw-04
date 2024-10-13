@@ -147,7 +147,7 @@ body {
 } */
 .current {
   position: relative;
-  color: #fff;
+  color: #404bbf;
 }
 
 .logo_navigation .current::before {
