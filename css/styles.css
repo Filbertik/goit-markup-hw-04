@@ -135,7 +135,7 @@ body {
 .ref::before {
 }
 
-.ref::after {
+/* .ref::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -144,6 +144,25 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+} */
+.current {
+  position: relative;
+  color: #fff;
+}
+
+.logo_navigation .current::before {
+  background-color: #fff;
+}
+
+.logo_navigation .current::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 4px;
 }
 
 .ref:hover {
@@ -187,7 +206,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
