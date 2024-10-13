@@ -192,6 +192,7 @@ address {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: auto;
 }
 .main_page .container {
   display: flex;
@@ -297,6 +298,10 @@ address {
 .soc_nets_link:focus {
   background-color: #404bbf;
 }
+
+.net_icon {
+  fill: #f4f4fd;
+}
 .about {
   background: #f4f4fd;
   padding-top: 120px;
@@ -397,4 +402,12 @@ footer {
 }
 .foooter_logo {
   margin-right: 120px;
+}
+.foooter_socnets {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
