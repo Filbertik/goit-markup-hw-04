@@ -159,7 +159,7 @@ body {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -20px;
+  bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 4px;
@@ -476,3 +476,14 @@ footer {
 .soc_nets_ul .soc_nets_link:focus {
   background-color: #31d0aa;
 }
+
+/* .logo_navigation:first-child {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 4px;
+} */
